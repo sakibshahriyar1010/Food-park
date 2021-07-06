@@ -25,13 +25,12 @@ body{
 }
 .menu ul li a {
     text-decoration: none;
-    padding: 16px 30px 16px 40px;
+    padding: 16px 30px 20px 40px;
     display: block;
     color: white;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 700;
     font-size: 18px;
-    transition: linear;
     
 }
 
@@ -95,7 +94,7 @@ section{
     width: 50%;
 }
 
-.section-2{
+.about-section{
     padding: 150px;
     background-image: url(ffff.jpg);
     background-repeat: no-repeat;
@@ -169,7 +168,7 @@ section{
 .half-width3 h2{
    font-size: 28px;
    font-family:'Nanum Myeongjo', serif;
-   font-weight: 700;
+   font-weight: 900;
    text-transform: capitalize;
    
 }
@@ -178,22 +177,23 @@ section{
     font-size: 14px;
     font-family:'Nanum Myeongjo', serif;
     font-weight: 700;
-    text-transform: capitalize;
-   margin-top: -5px;
-   padding-right: 30px;
-   padding-bottom: 30px;
+    line-height: 22px;
+    margin-top: -5px;
+    padding-right: 30px;
+    padding-bottom: 30px;
    
     
  }
 
- .section-3{
+ .sarvice-section{
      margin-left:200px;
      margin-bottom: 100px;
  }
 
-.section-4{
+.menu-section{
     margin-left: 90px;
     margin-bottom: 100px;
+    
 }
 
  .half-width4{
@@ -231,4 +231,37 @@ section{
     text-transform: capitalize;
     margin-top: -5px;
     margin-bottom: -30px;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(28, 31, 31);
+    padding-top: 45px;
+    padding-bottom: 120px;
+}
+
+.footer h3{
+    font-size: 42px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 900;
+    text-transform:uppercase;
+    color: white;
+    
+}
+
+.footer h3 span{
+    font-size: 42px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 900;
+    text-transform:uppercase;
+    color: #005c9e;
+    
+}
+
+.footer p{
+    font-size: 18px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    color: white;
+    
 }
